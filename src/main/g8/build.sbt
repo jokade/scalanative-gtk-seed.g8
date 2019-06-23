@@ -12,6 +12,3 @@ libraryDependencies ++= Seq(
   "de.surfice" %%% "scalanative-gtk3" % "$scalanative_gtk_version$"
 )
 
-// link with Gtk+ dependencies
-nativeLinkingOptions ++= nbhNativeLinkingOptions.value
-
